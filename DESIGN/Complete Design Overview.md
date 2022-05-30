@@ -3,12 +3,13 @@
 ## Table of Contents
 1. [The Purpose of this Document](#the-purpose-of-this-document)
 2. [Programming Language Choice](#programming-language-choice)
-3. [A Breakdown of Basic Tasks](#a-breakdown-of-basic-tasks)
+3. [A Breakdown of Fundamental Tasks](#a-breakdown-of-fundamental-tasks)
 
 ## The Purpose of this Document
 This document is meant to cover in depth the design choices - that is, the programming language choice, data structure design, function design, etc., that go into designing this program.  
 
 That way, not only will others be able to understand what I am doing, but also I am trying to do with each component in this program.  
+
 This document, I hope, will also be able to help keep my ADHD-ass on task with regards to developing this software in a logical manner that doesn't overwhelm me to no end.
 
 ## Programming Language Choice
@@ -22,5 +23,15 @@ Also, fuck Java's lack of unsigned integer types.
 
 Also also fuck C#'s array size being limited to ~2GB files, making reading huge files w/o using a file stream impossible (which is by design).
 
-## A Breakdown of Basic Tasks
-This program will need to do the following:
+[Back to Top](#table-of-contents)
+
+## A Breakdown of Fundamental Tasks
+This program will need to do the following at the very least to facilitate editing games in this program:
+
+1. Be able to read game executables, AND full game disc images
+2. Be able to identify the game (executable OR disc image) being loaded as a valid Dance Dance Revolution game
+3. Be able to load specific configuration files identifying key data points in each game, and metadata about said data
+4. Be able to use the metadata about that data to facilitate easy editing in various user-friendly editor windows
+5. Be able to save edited file data, and game configuration information as a separate "project" for future editing that doesn't require reloading the executable or disc image to continue editing, but will allow for 
+
+[Back to Top](#table-of-contents)
