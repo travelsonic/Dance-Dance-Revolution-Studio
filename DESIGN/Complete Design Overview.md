@@ -26,10 +26,17 @@ Also also fuck C#'s array size being limited to ~2GB files, making reading huge 
 [Back to Top](#table-of-contents)
 
 ## Identifying Essential Fundamental Tasks
-Essential fundamental tasks are those tasks that are absolutely needed in order for this program to function, and for the user to get out of using this program the intended experience.
+Essential fundamental tasks are those tasks that are absolutely needed in order for this program to function, and for the user to get out of using this program the intended experience/functionality.
 
 These fundamental tasks include:
 1. Being able to load game executables, as well as game disc images (ISO, BIN/CUE, etc.) into memory, some of which can be rather large (> 2GB)
 2. Being able to identify the game loaded as being a valid Dance Dance Revolution title, or not.
+3. Being able to load configuration files that tell the program what game is loaded, what data values are where, and information about them.
+5. Making said configuration data modular enough where one can add, subtract, or modify with ease one or more component while having the original ("default value") remain in case a revert is desired.
+6. Making it so that one doesn't need to retain the actual game in memory during the duration of editing data values, especially when a rather large game ISO image is loaded.
+7. Making sure that if the user does not keep the game in memory, that the location of the file is preserved so the game can be loaded to, and written to when a save is desired.
+8. Allowing for the configuration data, and all data - altered, and original backup - to be saved in a "project" file so the user can resume editing without having to reload the game image every time they open DDR Studio.
+9. Allow the user to find a copy of the executable or disc image if for whatever reason the saved file has been moved, or deleted (but also exists elsewhere). 
 
 [Back to Top](#table-of-contents)
+
