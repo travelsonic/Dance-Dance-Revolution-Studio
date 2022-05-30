@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [The Purpose of this Document](#the-purpose-of-this-document)
 2. [Programming Language Choice](#programming-language-choice)
-3. [A Breakdown of Fundamental Tasks](#a-breakdown-of-fundamental-tasks)
+3. [Identifying Essential Fundamental Tasks](#identifying-essential-fundamental-tasks)
 
 ## The Purpose of this Document
 This document is meant to cover in depth the design choices - that is, the programming language choice, data structure design, function design, etc., that go into designing this program.  
@@ -25,13 +25,7 @@ Also also fuck C#'s array size being limited to ~2GB files, making reading huge 
 
 [Back to Top](#table-of-contents)
 
-## A Breakdown of Fundamental Tasks
-This program will need to do the following at the very least to facilitate editing games in this program:
-
-1. Be able to read game executables, AND full game disc images
-2. Be able to identify the game (executable OR disc image) being loaded as a valid Dance Dance Revolution game
-3. Be able to load specific configuration files identifying key data points in each game, and metadata about said data
-4. Be able to use the metadata about that data to facilitate easy editing in various user-friendly editor windows
-5. Be able to save edited file data, and game configuration information as a separate "project" for future editing that doesn't require reloading the executable or disc image to continue editing, but will allow for 
+## Identifying Essential Fundamental Tasks
+Essential fundamental tasks are those tasks that are absolutely needed in order for this program to function, and for the user to get out of using this program the intended experience.
 
 [Back to Top](#table-of-contents)
