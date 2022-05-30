@@ -31,4 +31,5 @@ Essential fundamental tasks are those tasks that are absolutely needed in order 
 These fundamental tasks include:
 1. Being able to load game executables, as well as game disc images (ISO, BIN/CUE, etc.) into memory, some of which can be rather large (> 2GB)
 2. Being able to identify the game loaded as being a valid Dance Dance Revolution title, or not.
+
 [Back to Top](#table-of-contents)
