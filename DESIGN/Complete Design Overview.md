@@ -36,7 +36,7 @@ These fundamental tasks include:
 6. Making it so that one doesn't need to retain the actual game in memory during the duration of editing data values, especially when a rather large game ISO image is loaded.
 7. Making sure that if the user does not keep the game in memory, that the location of the file is preserved so the game can be loaded to, and written to when a save is desired.
 8. Allowing for the configuration data, and all data - altered, and original backup - to be saved in a "project" file so the user can resume editing without having to reload the game image every time they open DDR Studio.
-9. Allow the user to find a copy of the executable or disc image if for whatever reason the saved file has been moved, or deleted (but also exists elsewhere). 
+9. When writing a project file's game changes to a game, allow the user to find a copy of the executable or disc image if for whatever reason the saved file has been moved, or deleted (but also exists elsewhere). 
 
 [Back to Top](#table-of-contents)
 
