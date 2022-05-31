@@ -21,7 +21,7 @@ This includes the ability to do various tricks with raw pointers that I cannot d
 
 Also, fuck Java's lack of unsigned integer types. 
 
-Also also fuck C#'s array size being limited to ~2GB files, making reading huge files w/o using a file stream impossible (which is by design).
+Also also fuck C#'s array size being limited to ~2GB files, making reading larger files w/o using a file stream impossible (which is by design).
 
 [Back to Top](#table-of-contents)
 
