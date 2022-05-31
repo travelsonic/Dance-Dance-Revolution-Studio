@@ -26,7 +26,7 @@ Also also fuck C#'s array size being limited to ~2GB files, making reading huge 
 [Back to Top](#table-of-contents)
 
 ## Identifying Essential Fundamental Tasks
-Essential fundamental tasks are those tasks that are absolutely needed in order for this program to function, and for the user to get out of using this program the intended experience/functionality.
+Essential fundamental tasks are those tasks that are absolutely needed in order for this program to function, to allow for desired features to be implemented, and for the user to get out of using this program the intended experience/functionality.
 
 These fundamental tasks include:
 1. Being able to load game executables, as well as game disc images (ISO, BIN/CUE, etc.) into memory, some of which can be rather large (> 2GB)
